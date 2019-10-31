@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+
+    <string name="main_title">My Contacts</string>
+    <string name="main_search">Search by name</string>
+    <string name="main_subtitle">Your list of contacts</string>
+
+
+    <!-- error strings-->
+    <string name="main_network_error">No internet connection detected</string>
+    <string name="main_error_title">Hoo no!</string>
+    <string name="main_error_subtitle">There\'s no contacts to show \n Tap here to try again</string>
+
+
+</resources>

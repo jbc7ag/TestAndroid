@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_contact_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_action_star"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:id="@+id/item_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="16dp"
+            android:textColor="@color/primary_text"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/item_contact_img"/>
+
+        <TextView
+            android:id="@+id/item_contact_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[Adress"
+            android:textSize="14dp"
+            android:textColor="@color/secondary_text"
+            android:layout_toRightOf="@+id/item_contact_img"
+            android:layout_below="@+id/item_contact_name"
+
+            />
+
+        <ImageView
+            android:id="@+id/item_contact_icemail"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_action_email"
+            android:tint="@color/divider"
+            android:layout_below="@+id/item_contact_adress"
+            android:layout_toRightOf="@+id/item_contact_img"
+            />
+
+        <TextView
+            android:id="@+id/item_contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="14dp"
+            android:textColor="@color/secondary_text"
+            android:layout_toRightOf="@+id/item_contact_icemail"
+            android:layout_below="@+id/item_contact_adress"
+            android:layout_marginLeft="4dp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/item_contact_fav"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:button="@drawable/toggle"
+            android:checked="false"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+        />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/item_contact_img"/>
+
+</RelativeLayout>
+
