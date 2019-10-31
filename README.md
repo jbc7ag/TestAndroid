@@ -19,3 +19,5 @@ I decided to use a combination of Java and Kotlin because I have more experience
 I decided to use Retrofit as a Rest Client and GSON to help me to convert the object from the API into JSON.
 
 For images, I used Picasso because is one of the lighter libraries to manage images. And a library to show it rounded.
+
+![ScreenShot](https://i.postimg.cc/rwfz2zgk/Smart-Select-20191031-171318-My-Contacts.jpg)
